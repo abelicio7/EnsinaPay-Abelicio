@@ -68,7 +68,7 @@
     <img src="images/EducaKidsImage.png" alt="produto">
     <div class="product-details">
       <div class="product-title">Educa Play Kids Avançado (Envio imediato logo após o Pagamento)</div>
-      <div class="product-sub">Educa Kids inc</div>
+      <div class="product-sub">Educa Play Kids Inc</div>
       <div class="product-price" id="preco">149,00 MT</div>
     </div>
   </div>
@@ -105,7 +105,7 @@ function selectMetodo(metodo) {
 
 async function pagar() {
   const nome = document.getElementById("nome").value.trim();
-  const whatsapp = document.getElementById("email").value.trim();
+  const whatsapp = document.getElementById("whatsapp").value.trim();
   const numero = document.getElementById("numero").value.trim();
   const valorTexto = document.getElementById("preco").textContent.trim();
   const valor = valorTexto.replace(" MT", "").replace(",", ".");
